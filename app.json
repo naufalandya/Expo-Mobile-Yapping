@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "my-app",
-    "slug": "my-app",
+    "slug": "alobro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.naufalandya.alobro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "903519c9-c9bd-42a9-8216-7a259f0ab6f0"
+      }
+    },
+    "owner": "naufalandya"
   }
 }
